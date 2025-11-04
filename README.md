@@ -1,10 +1,10 @@
 <h1>Student Portal - Laravel Project</h1>
 
-<h2> Learning laravel DAY 1 </h2>
+<h2>Learning laravel DAY 1 </h2>
 Project Overview
 A Laravel-based Student Portal application with dynamic content management and professional UI design.
 
-✅ What I've Completed
+<h3>What I've Completed</h3>
 🏗️ Project Structure
 Laravel 10 project setup with proper MVC architecture
 
@@ -12,14 +12,14 @@ Environment-based configuration for dynamic app naming
 
 Blade templating system with layout inheritance
 
-🛣️ Routing & Controllers
+# Routing & Controllers
 HomeController & AboutController for page handling
 
 Named routes (home and about) for clean URL generation
 
 RESTful routing structure
 
-🎨 Frontend Implementation
+# Frontend Implementation
 Master layout (layouts/app.blade.php) with Bootstrap 5
 
 Header partial with dynamic navigation and active state highlighting
@@ -30,7 +30,7 @@ Home page with feature cards and call-to-action sections
 
 About page with mission statement and contact information
 
-🔧 Key Features
+# Key Features
 Dynamic App Name from .env configuration
 
 Responsive Design using Bootstrap 5
@@ -41,8 +41,8 @@ Environment Variables for easy customization
 
 Professional UI with consistent branding
 
-📁 File Structure Created
-text
+# File Structure Created
+<pre>
 student_portal/
 ├── routes/web.php
 ├── app/Http/Controllers/
@@ -57,7 +57,8 @@ student_portal/
 │   ├── home.blade.php
 │   └── about.blade.php
 └── .env (updated)
-🚀 How to Run
+</pre>
+# How to Run
 bash
 # Install dependencies
 composer install
@@ -69,7 +70,7 @@ php artisan key:generate
 php artisan serve
 Visit http://localhost:8000 to see the Student Portal in action!
 
-🔄 Dynamic Configuration
+# Dynamic Configuration
 The application name is dynamically loaded from .env file:
 
 App name displays in header navigation
@@ -77,10 +78,3 @@ App name displays in header navigation
 App name appears in page titles
 
 Footer shows dynamic app name with copyright
-
-📱 Responsive Design
-Mobile-first approach with Bootstrap 5
-
-Collapsible navigation menu for mobile devices
-
-Responsive grid system for all screen sizes
