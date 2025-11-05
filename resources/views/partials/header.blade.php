@@ -18,7 +18,29 @@
                     <a class="nav-link {{ request()->routeIs('about') ? 'active' : '' }}" 
                        href="{{ route('about') }}">About</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ request()->routeIs('students.index') ? 'active' : '' }}" 
+                        href="{{ route('students.index') }}">Students</a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
+
+
+
+
+<!-- <ul class="navbar-nav ms-auto">
+    <li class="nav-item">
+        <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" 
+           href="{{ route('home') }}">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link {{ request()->routeIs('about') ? 'active' : '' }}" 
+           href="{{ route('about') }}">About</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link {{ request()->routeIs('students.index') ? 'active' : '' }}" 
+           href="{{ route('students.index') }}">Students</a>
+    </li>
+</ul> -->
